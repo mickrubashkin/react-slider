@@ -1,6 +1,8 @@
-# React Slider
+# React Carousel
 
-Built with React, React Context, Styled-Components.
+Little adaptive carousel component, built with React, React Context, Styled-Components.
+
+[Live Preview](https://s3l4zp.csb.app/)
 
 ## Install
 

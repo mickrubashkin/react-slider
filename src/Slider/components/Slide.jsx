@@ -2,7 +2,7 @@ import SlideTitle from './SlideTitle'
 import SlideImage from './SlideImage'
 import styled from 'styled-components'
 
-import SliderDescription from './SlideDescription'
+import SlideDescription from './SlideDescription'
 import Dots from './controls/Dots'
 
 // eslint-disable-next-line react/prop-types
@@ -11,7 +11,7 @@ export default function Slide({ data: { imageUrl, title, description } }) {
     <Wrapper>
       <SlideInfoWrapper>
         <SlideTitle title={title} />
-        <SliderDescription description={description} />
+        <SlideDescription description={description} />
         <Button href="https://ya.ru">Текст кнопки</Button>
         <Dots />
       </SlideInfoWrapper>
