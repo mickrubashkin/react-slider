@@ -19,4 +19,15 @@ const Title = styled.h1`
     font-size: 50px;
     line-height: 61px;
   }
+
+  @media (max-width: 770px) {
+    font-size: 60px;
+    line-height: 73px;
+    text-align: center;
+  }
+
+  @media (max-width: 375px) {
+    font-size: 40px;
+    line-height: 48px;
+  }
 `

@@ -31,6 +31,11 @@ const Wrapper = styled.div`
     flex-direction: column;
     justify-content: space-between;
     height: 100vh;
+    padding: 66px 62px 59px 62px;
+  }
+
+  @media (max-width: 375px) {
+    padding: 57px 38px 44px 38px;
   }
 `
 
@@ -44,7 +49,11 @@ const SlideInfoWrapper = styled.div`
   @media (max-width: 744px) {
     width: 100%;
     margin: 0;
-    margin-top: 66px;
+    /* margin-top: 66px; */
+  }
+
+  @media (max-width: 375px) {
+    margin: 0;
   }
 `
 const Button = styled.button`
@@ -56,6 +65,11 @@ const Button = styled.button`
   color: hsla(0, 0%, 100%, 1);
   font-size: 20px;
   text-align: center;
+
+  @media (max-width: 375px) {
+    margin-top: 22px;
+    margin-bottom: 16px;
+  }
 `
 const ImageWrapper = styled.div`
   width: 57%;
@@ -64,5 +78,11 @@ const ImageWrapper = styled.div`
     width: 100%;
     height: 580px;
     margin-bottom: 110px;
+    margin-top: 32px;
+  }
+
+  @media (max-width: 375px) {
+    margin-top: 0;
+    margin-bottom: 72px;
   }
 `

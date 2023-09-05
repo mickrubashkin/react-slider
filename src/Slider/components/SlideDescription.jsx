@@ -6,6 +6,7 @@ export default function SliderDescription({ description }) {
 }
 
 const Description = styled.div`
+  margin-top: 60px;
   font-family: Inter;
   font-size: 24px;
   font-weight: 400;
@@ -16,9 +17,15 @@ const Description = styled.div`
   @media (max-width: 1440px) {
     font-size: 20px;
     line-height: 28px;
+    margin-top: 28px;
   }
 
   @media (max-width: 744px) {
     margin-top: 20px;
+  }
+
+  @media (max-width: 375px) {
+    font-size: 16px;
+    line-height: 22px;
   }
 `

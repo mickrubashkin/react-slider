@@ -94,13 +94,19 @@ const Wrapper = styled.div`
   position: relative;
   max-width: 1640px;
   margin: 0 auto;
+  border-radius: 20px;
+  background-color: white;
 
   @media (max-width: 1440px) {
     max-width: 1160px;
   }
 
   @media (max-width: 744px) {
-    max-width: 620px;
+    width: 100%;
+  }
+
+  @media (max-width: 375px) {
+    width: 100%;
   }
 `
 
